@@ -1,0 +1,137 @@
+<style>
+    .column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+    }
+  
+    .image-container {
+      display: flex;
+      align-items: center;
+      margin: 50px;
+    }
+  
+    .rounded-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 8px solid rgb(201, 191, 150);
+      margin-left: 20px;
+      object-fit: cover;
+    }
+  
+    .vertical-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 8px;
+      background-color: rgb(201, 191, 150);
+      z-index: -1;
+    }
+  
+    .bloc-container {
+      display: flex;
+      align-items: center;
+    }
+  
+    .content {
+      margin-left: 20px;
+    }
+
+    /* Texte caché mais occupant toujours de l'espace */
+    .hidden-text {
+        visibility: hidden;
+       
+        margin-right: 20px;
+    }
+  </style>
+  
+  <div class="column">
+    <div class="vertical-line"></div>
+  
+    <div class="image-container">
+        <div class="hidden-text">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="content">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+
+    <div class="image-container">
+        <div class="content">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="hidden-text">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+
+    <div class="image-container">
+        <div class="hidden-text">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="content">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+
+    <div class="image-container">
+        <div class="content">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="hidden-text">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+  
+    <div class="image-container">
+        <div class="hidden-text">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="content">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+
+    <div class="image-container">
+        <div class="content">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="hidden-text">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+
+    <div class="image-container">
+        <div class="hidden-text">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="content">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+
+    <div class="image-container">
+        <div class="content">
+            Texte à droite de l'image 1
+          </div>
+      <img src="image1.png" alt="Image 1" class="rounded-image" />
+      <div class="hidden-text">
+        Texte à droite de l'image 1
+      </div>
+    </div>
+  
+   
+  </div>
+  

@@ -1,0 +1,123 @@
+
+div {
+color:red;
+display:flex;
+background-color:black ;
+margin-top: 20px;
+padding : 50px
+}
+
+.bleu{
+background-color:blue 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 200px; /* Ajustez la largeur des images */
+    height: 300px; /* Ajustez la hauteur des images */
+    margin: 0 50px; /* Espacement entre les images */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-image: url('image1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; /* Largeur de la barre verticale */
+    height: 100%;
+    border-left: 1px solid #00ff00; /* Utilisation d'une bordure pour la barre verticale */
+}
+
+
+.top{
+    margin:auto;
+    margin-top: 3%;
+    max-width:12%;
+    display:block;
+}
+ 
+#sommet{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 3px yellow;
+    transition: all .3s ease-in-out;
+}
+ 
+#sommet:hover{
+    transform: scale(1.2)
+}
+ 
+.menu{
+    padding-top:5%;
+    padding-bottom:5%;
+    display:flex;
+    justify-content: space-around;
+}
+ 
+.menu_sommet{
+    padding-top:5%;
+    padding-bottom:5%;
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    margin: 0 30%;
+}
+ 
+.menu_sommet:before {
+    display: block;
+    left: 0;
+    content :'';
+    border-bottom: 5px solid yellow;
+    width :100%;
+    height: 0;
+    padding-top: 20px;
+    position: absolute;
+    z-index: -1;
+}
+ 
+.menu_sommet a{
+    width:50px;
+}
+ 
+.image_menu{
+    width:100%;
+    border-radius:50%;
+    border: solid 3px yellow;
+    transition: all .3s ease-in-out;
+}
+ 
+.image_menu:hover{
+    transform: scale(1.4);
+}
+ 
+.ligne{
+    max-width:100%;
+    background-color:yellow;
+    padding-top:1%;
+    margin-bottom:3%;
+}
+ 
+.image_article{
+    max-width:100%;
+}
+ 
+hr{
+    border: 5px solid yellow;
+}
